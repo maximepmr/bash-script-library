@@ -15,7 +15,6 @@ while getopts ":p:" opt; do
         p)
             params_name=$OPTARG
             echo "Params name: $params_name"
-            # Add your logic here for handling the project name
             ;;
         h|\?)
             display_help
